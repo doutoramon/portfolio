@@ -10,13 +10,17 @@ import { ContactComponent } from './container/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { PortfolioComponent } from './container/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ToolbarComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,

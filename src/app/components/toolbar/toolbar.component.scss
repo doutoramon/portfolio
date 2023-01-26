@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+.toolbar {
+  width: 100%;
+  margin: 0px auto;
+  /* height: 9vh;
+  padding: 1rem 0px; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* -webkit-box-pack: justify; */
+  justify-content: space-between;
+  /* -webkit-box-align: center; */
+  align-items: center;
+
+  background-color: var(--backgroung-second);
+
+  .logo {
+
+    .img-logo {
+      height: 28px;
+      width: 200px;
+    }
+  }
+
+  .toolbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+
+    li {
+      /* margin-right: 10px; */
+
+      a {
+        color: var(--color-second);
+        /* font-family: 'Karantina', cursive; */
+      }
+
+      a:hover {
+        color: var(--color-first);
+        border-bottom: 4px solid var(--color-details);
+        transition-duration: 0.1s;
+      }
+    }
+  }
+
+}

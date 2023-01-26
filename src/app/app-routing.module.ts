@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./container/contact/contact.module').then(m => m.ContactModule)
   },
   {
+    path: 'portfolio',
+    loadChildren: () => import('./container/portfolio/portfolio.module').then(m => m.PortfolioModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
