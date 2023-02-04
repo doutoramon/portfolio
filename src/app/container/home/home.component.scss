@@ -81,7 +81,6 @@ main {
 
 @media screen and (max-width: 650px) {
   main {
-
     .text-zone {
       line-height: 32px;
 
@@ -91,26 +90,49 @@ main {
       }
 
       .name-text {
-        margin: 0 0 0 0px;
         font-size: 4rem;
-        font-weight: 700;
-        letter-spacing: .2rem;
       }
 
       .small-text {
-        margin: 4px;
         letter-spacing: 1px;
       }
 
       .btn {
         margin-top: 5px;
-        /* padding: 12px 0; */
-
       }
     }
-
   }
-
 }
 
-//490
+@media screen and (max-width: 470px) {
+  main {
+    section {
+      /* width: 80%; */
+
+      .text-zone {
+        line-height: 21px;
+        margin-left: -1px;
+
+        .hello-text {
+          font-size: 3rem;
+          letter-spacing: -6px;
+        }
+
+        .name-text {
+          font-size: 3rem;
+        }
+
+        .small-text {
+          font-size: 1rem;
+          letter-spacing: 2px;
+          margin: 4px 0px 0px 2px;
+        }
+
+        .btn {
+          margin-top: 5px;
+          width: 97%;
+        }
+      }
+    }
+  }
+}

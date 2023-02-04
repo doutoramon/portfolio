@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { PortfolioComponent } from './container/portfolio/portfolio.component';
+import { PostsComponent } from './container/posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { PortfolioComponent } from './container/portfolio/portfolio.component';
     ContactComponent,
     ToolbarComponent,
     PortfolioComponent,
+    PostsComponent,
   ],
   imports: [
     BrowserModule,
